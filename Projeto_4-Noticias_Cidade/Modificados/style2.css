@@ -1,0 +1,285 @@
+#topo{
+    width: 100%;
+    padding-left: 20%;
+
+    ul{
+        position: relative;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 20px;
+        width: 54%;
+        float: left;
+        background: rgb(224, 6, 6);
+        z-index: 2;
+    }
+    li{
+        float: left;
+        color: white;
+        padding: 0.3em;
+        text-decoration: none;
+        text-align: center;
+    }
+    ul .item-menu {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 0 1.5em;
+        line-height: 2em;
+        font-weight: bold;
+        background: url(/Projetos/Projeto_4-Noticias_Cidade/imagens-necessarias-site-noticias-cidade/divisor.png) no-repeat left center;
+    }
+    .item-menu:hover{
+        color: rgb(120, 1, 1);
+    }
+    .detalhe-topo{
+        position: absolute;
+        top: 0px;
+        left: 70%;
+        z-index: 1;
+    }
+    #selecionado{
+    background: red;
+    }
+}
+#logo{
+    padding-top: 10px;
+}
+.caixa{
+    width: 100%;
+    padding: 10px;
+    padding-top: 20px;
+    background-image: url(/Projetos/Projeto_4-Noticias_Cidade/imagens-necessarias-site-noticias-cidade/fundo-caixa.png);
+    text-align: left;
+}
+.caixa-conteudo{
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    height: 90%;
+    display: flexbox;
+}
+#entrevistas{
+    width: 100%;
+}
+.titulo{
+    color: white;
+    background-color: #284d71;
+    padding: 5px;
+    font-size: 22px;
+    margin-top: -5%;
+}
+.entrevistados ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.entrevistados li{
+    min-width: 160px;
+    max-width: 170px;
+    width: auto;
+    background-color: white;
+    text-decoration: none;
+    text-align: left;
+    padding: 7px;
+    padding-bottom: 13px;
+    cursor: pointer;
+}
+.entrevistados a{
+    text-decoration: none;
+    color: black;
+}
+.entrevistados li:hover{
+    background-color: #f2f2f2;
+    background-image: url(/Projetos/Projeto_4-Noticias_Cidade/imagens-necessarias-site-noticias-cidade/marcador.png);
+    max-width: 160px;
+    background-position: 3%;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+}
+#caixa-email{
+
+    width: 100%;
+}
+input[type="email"]{
+    padding: 5px;
+    width:90%;
+    height: 15px;
+    color: #b8b7b7;
+    border: 1px solid #b8b7b7;
+}
+input[type="email"]::placeholder{
+    color: #b8b7b7;
+}
+input[type="email"]:focus{
+   border: 2px solid rgb(3, 3, 221);
+}
+input[type="submit"]{
+    padding: 7px;
+    color:white;
+    background-color: rgb(224, 6, 6);
+    cursor: pointer;
+    font-weight: bold;
+}
+label{
+    font-size: 18px;
+}
+#caixa-noticia-1{
+    width: 100%;
+    height:100%;
+    padding-top: 30px;
+}
+.tag{
+    background-color: red;
+    padding: 5px;
+    color: white;
+    float: left;
+    margin-right: 10px;
+    font-size: 90%;
+}
+#tag1{
+    color:black
+}
+.foto-noticia{
+    width:100%;
+    height: 60%;
+}
+.texto-noticia{
+    text-align: justify;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    font-size: 100%;
+}
+.link-noticia{
+    color: red;
+    font-size: 100%;
+}
+.link-noticia:hover{
+    color: rgb(224, 6, 6);
+}
+#destaque{
+    width: 100%;
+    height:100%;
+    padding-top: 30px;
+}
+#caixa-noticias-mundo{
+    margin-top: 10px;
+    width: 100%;
+    height: 350px;
+    padding-top: 30px;
+}
+.mini-noticia{
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+}
+.mini-noticia:hover{
+    background-color: #f2f2f2;
+}
+.mini-foto-noticia:hover{
+    opacity: 0.5;
+}
+.mini-foto-noticia{
+    width: 30%;
+    height: 20%;
+}
+.mini-titulo-noticia{
+    font-size: 90%;
+    color: blue;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 100%;
+}
+.mini-texto-noticia{
+    font-size: 80%;
+    margin-left: -80%;
+    margin-top: 30px;
+    width:90%;
+}
+#caixa-noticias-recentes{
+    margin-top: 10px;
+    width: 100%;
+    height: 350px;
+    padding-top: 30px;
+}
+#rodape{
+    background-color:#284d71;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    width: 100%;
+    height: 60px;
+    font-size: 14px;
+    margin-left: -10px;
+    padding-left: 300px;
+    position: absolute;
+    bottom: -30em;
+}
+#conteudo{
+    display: inline-block;
+    margin: 100px;
+    margin-left: 300px;
+    margin-right: 0px;
+}
+#primario{
+    width:270px;
+    float: left;
+    margin-left: 30px;
+}
+#secundario{
+    width:270px;
+    float: left;
+    margin-left: 50px;
+}
+#lateral{
+    width:180px;
+    float: left;
+    margin-right: 20px;
+}
+#brasil{
+    #primario{
+        width:540px;
+        float: left;
+        margin-left: 30px;
+    }
+    #rodape{
+        background-color:#284d71;
+        color: white;
+        text-align: left;
+        padding: 5px;
+        width: 100%;
+        height: 60px;
+        font-size: 14px;
+        margin-left: -10px;
+        padding-left: 300px;
+        margin-bottom: -25em   
+    }
+    #caixa-noticias-mundo{
+        margin-top: 10px;
+        width: 100%;
+        height: 50%;
+        padding-top: 30px;
+    }
+}
+#fotos{
+    #secundario{
+        width:720px;
+        float: left;
+        margin-left: 30px;
+    }
+    #rodape{
+        background-color:#284d71;
+        color: white;
+        text-align: left;
+        padding: 5px;
+        width: 100%;
+        height: 60px;
+        font-size: 14px;
+        margin-left: -10px;
+        padding-left: 300px;
+        margin-bottom: -35em   
+    }
+}

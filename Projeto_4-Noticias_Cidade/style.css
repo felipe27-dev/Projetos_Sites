@@ -1,0 +1,229 @@
+#topo{
+    width: 100%;
+    padding-left: 20%;
+
+    ul{
+        position: relative;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 20px;
+        width: 54%;
+        float: left;
+        background: rgb(224, 6, 6);
+        z-index: 2;
+    }
+    li{
+        float: left;
+        color: white;
+        padding: 0.3em;
+        text-decoration: none;
+        text-align: center;
+        background: url(/Projetos/Projeto_4-Noticias_Cidade/imagens-necessarias-site-noticias-cidade/divisor.png) no-repeat left center;
+    }
+    ul .item-menu {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 0 1.5em;
+        line-height: 2em;
+        font-weight: bold;
+    }
+    .item-menu:hover{
+        color: rgb(120, 1, 1);
+    }
+    .detalhe-topo{
+        position: absolute;
+        top: 0px;
+        left: 70%;
+        z-index: 1;
+    }
+    #selecionado{
+    background: red;
+    }
+}
+#logo{
+    padding-top: 10px;
+}
+.caixa{
+    position: absolute;
+    padding: 20px;
+    background-image: url(/Projetos/Projeto_4-Noticias_Cidade/imagens-necessarias-site-noticias-cidade/fundo-caixa.png);
+    text-align: left;
+}
+.caixa-conteudo{
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    height: 90%;
+    display: flexbox;
+}
+#entrevistas{
+    top: 30%;
+    left: 20%;
+    width: 180px;
+}
+.titulo{
+    color: white;
+    background-color: #284d71;
+    padding: 5px;
+    font-size: 22px;
+    margin-top: -5%;
+}
+.entrevistados ul{
+    position: relative;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+    float: left;
+    text-decoration: none;
+}
+.entrevistados li{
+    min-width: 160px;
+    max-width: 170px;
+    width: auto;
+    background-color: white;
+    text-decoration: none;
+    text-align: left;
+    padding: 7px;
+    padding-bottom: 13px;
+    cursor: pointer;
+}
+.entrevistados a{
+    text-decoration: none;
+    color: black;
+}
+.entrevistados li:hover{
+    background-color: #f2f2f2;
+    background-image: url(/Projetos/Projeto_4-Noticias_Cidade/imagens-necessarias-site-noticias-cidade/marcador.png);
+    max-width: 160px;
+    background-position: 3%;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+}
+#caixa-email{
+    top: 82%;
+    left: 20%;
+    width: 180px;
+}
+input[type="email"]{
+    padding: 5px;
+    width:90%;
+    height: 15px;
+    color: #b8b7b7;
+    border: 1px solid #b8b7b7;
+}
+input[type="email"]::placeholder{
+    color: #b8b7b7;
+}
+input[type="email"]:focus{
+   border: 2px solid rgb(3, 3, 221);
+}
+input[type="submit"]{
+    padding: 7px;
+    color:white;
+    background-color: rgb(224, 6, 6);
+    cursor: pointer;
+    font-weight: bold;
+}
+label{
+    font-size: 18px;
+}
+#caixa-noticia-1{
+    top: 30%;
+    left: 36%;
+    width: 300px;
+    height: 300px;
+    padding-top: 30px;
+}
+.tag{
+    background-color: red;
+    padding: 5px;
+    color: white;
+    float: left;
+    margin-right: 10px;
+    font-size: 90%;
+}
+#tag1{
+    color:black
+}
+.foto-noticia{
+    width:100%;
+    height: 60%;
+}
+.texto-noticia{
+    text-align: justify;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    font-size: 100%;
+}
+.link-noticia{
+    color: red;
+    font-size: 100%;
+}
+.link-noticia:hover{
+    color: rgb(224, 6, 6);
+}
+#destaque{
+    top: 30%;
+    left: 60%;
+    width: 300px;
+    height: 300px;
+    padding-top: 30px;
+}
+#caixa-noticias-mundo{
+    top:76%;
+    left: 36%;
+    width: 300px;
+    height: 350px;
+    padding-top: 30px;
+}
+.mini-noticia{
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+}
+.mini-noticia:hover{
+    background-color: #f2f2f2;
+}
+.mini-foto-noticia:hover{
+    opacity: 0.5;
+}
+.mini-foto-noticia{
+    width: 30%;
+    height: 20%;
+}
+.mini-titulo-noticia{
+    font-size: 90%;
+    color: blue;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 400px;
+}
+.mini-texto-noticia{
+    font-size: 80%;
+    margin-left: -240px;
+    margin-top: 30px;
+}
+#caixa-noticias-recentes{
+    top:76%;
+    left: 60%;
+    width: 300px;
+    height: 350px;
+    padding-top: 30px;
+}
+#rodape{
+    background-color:#284d71;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    margin-left: -10px;
+    padding-left: 300px;
+    position: absolute;
+    bottom: -320px;
+}
